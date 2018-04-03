@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ISLab Beacon</string>
+    <string name="app_title">ISLab Beacon App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_gimbal_event_list_adapter">GimbalEventListAdapter</string>
+    <string name="turn_on">On!</string>
+    <string name="action_enable">Enable</string>
+    <string name="action_not_now">Not Now</string>
+    <string name="action_privacy_policy">Privacy Policy</string>
+    <string name="action_tos">Terms of Use</string>
+    <string name="action_place_monitoring">Place Monitoring</string>
+    <string name="action_reset_app_instance_id">Reset App Instance ID</string>
+    <string name="optin_top_text">Enable location to find</string>
+    <string name="optin_bottom_text">Nearby places.</string>
+    <string name="title_activity_opt_in">OptInActivity</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/gimbal_monitoring_parent_view"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp" >
+
+        <TextView
+            android:id="@+id/gimbal_monitoring_text_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Gimbal Services ON/OFF" />
+
+        <CheckBox
+            android:id="@+id/gimbal_monitoring_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/darker_gray" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/reset_app_instance_parent_view"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        android:onClick="onResetAppInstance" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Reset App Instance ID" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/darker_gray" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/numberPicker_parent_view"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/numberPicker_text_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Time between beacon sightings (seconds)" />
+
+        <NumberPicker
+            android:id="@+id/numberPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:textSize="12dp"
+            android:scaleX="0.75"
+            android:scaleY="0.75"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@android:color/darker_gray" >
+    </LinearLayout>
+
+</LinearLayout>
